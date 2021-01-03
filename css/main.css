@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font: 13px Helvetica, Arial;
+    overflow: hidden;
+    background-color: rgb(33, 33, 33);
+}
+
+.btn {
+    border-radius: 5%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn_black {
+    color: #fff;
+    background: #000000;
+}
+
+.btn_black:hover {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    background-color: #ffffff;
+}
+
+.init_screen {
+    height: 100%;
+    padding: 20px;
+    background-color: rgb(33, 33, 33);
+}
+
+.control_panel {
+    position: relative;
+    height: 100%;
+    background-color: rgb(33, 33, 33);
+}
+
+.video_board {
+    height: 1080px;
+    width: 1920px;
+    background-color: rgb(33, 33, 33);
+}
+
+.text_board {
+    height: fit-content;
+    width: 100%;
+    /* overflow: hidden; */
+    background-color: rgb(33, 33, 33);
+}
+
+.slide_text {
+    position: relative;
+    padding: 50px;
+    height: 100%;
+    width: fit-content;
+    font-size: 700px;
+    color: #eee;
+    white-space: nowrap;
+    transform: translateX(500px);
+    -webkit-transform: translateX(500px);
+    /* animation: flowing 2s ease; /* Control at JS */
+
+}
+
+@keyframes flowing {
+    99% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        opacity: 0;
+    }
+}

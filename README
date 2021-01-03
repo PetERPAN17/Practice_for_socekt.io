@@ -1,0 +1,11 @@
+Need socket.io
+
+Package.json
+{
+  "name": "socket-chat-example",
+  "version": "0.0.1",
+  "description": "my first socket.io app",
+  "dependencies": {}
+}
+npm install express@4.15.2
+npm install socket.io
